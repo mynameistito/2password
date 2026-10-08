@@ -37,7 +37,7 @@ describe("env resolve", () => {
         false,
       )
       assert.strictEqual(stdout, "")
-      assert.match(stderr, /Resolved 3 secret references/)
+      assert.match(stderr, /^\[2password\]: Resolved 3 secret references into /)
       assert.deepStrictEqual((await readFile(join(box.home, "op.log"), "utf8")).trim().split("\n"), ["run"])
       assert.deepStrictEqual((await readFile(join(box.home, "references"), "utf8")).trim().split("\n"), [
         "op://Personal/First/credential",
