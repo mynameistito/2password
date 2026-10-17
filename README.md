@@ -7,8 +7,8 @@
 Requires [Bun](https://bun.sh) and the [1Password CLI](https://developer.1password.com/docs/cli/get-started/).
 
 ```sh
-bun add -g 2password                  # the CLI
-bunx skills add kitlangton/2password  # teaches your agent to use it
+bun add -g @mynameistito/2password     # the CLI
+bunx skills add mynameistito/2password # teaches your agent to use it
 ```
 
 ## Use

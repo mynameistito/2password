@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "2password",
+      "name": "@mynameistito/2password",
       "dependencies": {
         "@effect/platform-bun": "^4.0.0",
         "effect": "^4.0.0",
