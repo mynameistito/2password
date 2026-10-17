@@ -23,6 +23,6 @@ jobs:
       - run: bun run check
       # npm publish silently rewrites invalid package.json fields (it once dropped our bin).
       - run: npm pkg fix && git diff --exit-code package.json
-      # The real DPAPI token store, with a disposable fictional token. CI only: it touches the user's store.
-      - if: runner.os == 'Windows'
+      # The real Keychain/DPAPI token store, with a disposable fictional token cleaned up by the test. CI only: it touches the runner's store.
+      - if: runner.os == 'macOS' || runner.os == 'Windows'
         run: bun run test:keychain
