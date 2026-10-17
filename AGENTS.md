@@ -65,7 +65,7 @@ These are security properties. Do not weaken them.
 
 ## Release
 
-Published to npm as `2password` by `.github/workflows/release.yml` (npm trusted publishing, so no tokens). The skill installs from this repo with `bunx skills add kitlangton/2password`.
+Published to npm as `@mynameistito/2password` by `.github/workflows/release.yml` (npm trusted publishing, so no tokens). The skill installs from this repo with `bunx skills add mynameistito/2password`.
 
 ```sh
 npm version patch      # or minor; commits and tags vX.Y.Z

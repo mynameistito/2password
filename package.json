@@ -1,5 +1,5 @@
 {
-  "name": "2password",
+  "name": "@mynameistito/2password",
   "version": "0.2.0",
   "description": "1Password for coding agents: find, use, and save secrets without exposing them.",
   "keywords": [
@@ -10,12 +10,12 @@
     "secrets",
     "skill"
   ],
-  "homepage": "https://github.com/kitlangton/2password#readme",
-  "bugs": "https://github.com/kitlangton/2password/issues",
+  "homepage": "https://github.com/mynameistito/2password#readme",
+  "bugs": "https://github.com/mynameistito/2password/issues",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kitlangton/2password.git"
+    "url": "git+https://github.com/mynameistito/2password.git"
   },
   "bin": {
     "2password": "bin/2password"
